@@ -266,7 +266,8 @@ blockquote {
 }
 
 .bg-grey {
-  background: #6f73ff;
+  background: #a4a6d7;
+  height: 8%;
 }
 
 .gray-bg {
@@ -674,6 +675,10 @@ overlay search
 .header-top {
   position: relative !important;
 }
+.navbar-brand{
+  font-size: 4em;
+  padding: 20px;
+}
 
 .navigation-dark .navbar-toggler span {
   color: #fff;
@@ -903,7 +908,7 @@ overlay search
   margin: 0 auto;
   transition: all 0.25s ease-in-out;
 }
-.category-item .category-img {
+.category-item .category-– {
   overflow: hidden;
   position: relative;
 }
