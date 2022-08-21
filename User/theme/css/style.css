@@ -258,11 +258,12 @@ blockquote {
 }
 
 .font-sm {
-  font-size: 12px !important;
+  font-size: 20px !important;
+  font-weight:normal;
 }
 
 .text-color {
-  color: #ce8460;
+  color: #000000;
 }
 
 .bg-grey {
@@ -848,23 +849,26 @@ overlay search
   margin: 0px 10px;
 }
 .slider-item img {
-  width: 100%;
+  width: 70%;
 }
 
 .slider-item-content {
   position: relative;
+  text-align: center;
+  font-size: 4em;
 }
 
 .slider-post-content {
-  position: absolute;
-  bottom: 38px;
-  padding: 20px;
-  background: #fff;
-  width: 90%;
+  float:left;
+  position:absolute;
+  left: 20%;
+  bottom: 0px;
   text-align: center;
-  margin: 0 auto;
-  left: 0px;
-  right: 0px;
+  background: #fff;
+  opacity: 0.8;
+  width: 60%;
+  text-align: center;
+  height: 20%;
 }
 
 @media (max-width: 400px) {
@@ -1194,7 +1198,8 @@ overlay search
 }
 
 .post-title {
-  text-transform: capitalize;
+  font: 15px normal;
+  /* text-transform: capitalize; */
 }
 
 .letter-spacing-1 {
@@ -1441,6 +1446,12 @@ footer
 
 
 /*  */
+
+.slider-wrap{
+  display: flex;
+  justify-content: space-around;
+}
+
 div.filter{
   display: flex;
   justify-content: center;
@@ -1455,6 +1466,6 @@ div.filter > form > div{
   justify-content: space-between;
 }
 
-.BA{
-  /* display: none; */
+.loca-box{
+  display: none;
 }
