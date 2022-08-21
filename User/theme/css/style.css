@@ -854,6 +854,7 @@ overlay search
 
 .slider-item-content {
   position: relative;
+  top: 50px;
   text-align: center;
   font-size: 4em;
 }
@@ -1482,4 +1483,8 @@ div.filter > form > div{
 .location{
   text: normal;
   color: rgb(137, 65, 65);
+}
+
+#logo{
+  width: 150px;
 }
