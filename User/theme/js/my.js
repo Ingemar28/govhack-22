@@ -24,7 +24,7 @@ function loca_click(flag){
     if (checkBox.checked == true){
         for (let i = 0; i < x.length; i++) {
             // hide post not in the right location
-            if (!x[i].className.includes('in')){
+            if (!x[i].className.includes(flag)){
                 x[i].hidden = "True";
             }
         }
