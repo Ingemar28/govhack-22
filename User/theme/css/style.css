@@ -1208,7 +1208,7 @@ overlay search
 }
 
 .post-grid {
-  border: #000 solid;
+  border: rgb(143, 143, 143) solid;
   height: 300px;
   padding: 5px;
 }
@@ -1477,4 +1477,9 @@ div.filter > form > div{
 
 .loca-box{
   display: none;
+}
+
+.location{
+  text: normal;
+  color: rgb(137, 65, 65);
 }
