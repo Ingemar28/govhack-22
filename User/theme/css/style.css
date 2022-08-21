@@ -171,6 +171,7 @@ a.read-more:hover {
 .section-padding {
   padding: 30px 0;
   position: relative;
+  /* background: rgb(224, 224, 225); */
 }
 
 .section-sm {
@@ -267,7 +268,7 @@ blockquote {
 }
 
 .bg-grey {
-  background: rgb(248, 249, 250);
+  /* background: rgb(248, 249, 250); */
   height: 8%;
 }
 
@@ -676,10 +677,9 @@ overlay search
 .header-top {
   position: relative !important;
 }
-/* .navbar-brand{
-  font-size: 4em;
-  padding: 20px;
-} */
+.navbar-brand{
+  text-align: center;
+}
 
 .navigation-dark .navbar-toggler span {
   color: #fff;
@@ -1209,6 +1209,7 @@ overlay search
 
 .post-grid {
   border: #000 solid;
+  height: 300px;
   padding: 5px;
 }
 
@@ -1452,7 +1453,9 @@ footer
 
 
 /*  */
-
+.container{
+  padding: 15px 0px;
+}
 .slider-wrap{
   display: flex;
   justify-content: space-around;
